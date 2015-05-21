@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Math game</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+
+</head>
+
+<body>
+  <h4>Find the solution to this puzzle using only the numbers from 1 to 9</h4>
+  <table>
+    <tr>
+      <td><input type="number" name="a[0]" /></td>
+      <td><input type="text"  class="hide" disabled /></td>
+      <td><input type="number" name="a[4]" /></td>
+      <td><input type="text"  disabled value="-" /></td>
+      <td><input type="number" name="a[5]" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="text" disabled value="66" /></td>
+    </tr>
+    <tr>
+      <td><input type="text" disabled value="+" /></td>
+      <td><input type="text"  class="hide" disabled /></td>
+      <td><input type="text" value="x" disabled /></td>
+      <td><input type="text"  disabled class="hide" /></td>
+      <td><input type="text" disabled value="-" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="text" disabled value="=" /></td>
+    </tr>
+    <tr>
+      <td><input type="text" disabled value="13" /></td>
+      <td><input type="text"  class="hide" disabled /></td>
+      <td><input type="text" value="12" disabled /></td>
+      <td><input type="text"  disabled class="hide" /></td>
+      <td><input type="text" disabled value="11" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="text" disabled value="10" /></td>
+    </tr>
+    <tr>
+      <td><input type="text" disabled value="x" /></td>
+      <td><input type="text"  class="hide" disabled /></td>
+      <td><input type="text" value="+" disabled /></td>
+      <td><input type="text"  disabled class="hide" /></td>
+      <td><input type="text" disabled value="+" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="text" disabled value="-" /></td>
+    </tr>
+    <tr>
+      <td><input type="number" name="a[1]" /></td>
+      <td><input type="text" class="hide" disabled /></td>
+      <td><input type="number" name="a[3]" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="number" name="a[6]" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="number" name="a[8]" /></td>
+    </tr>
+    <tr>
+      <td><input type="text" disabled value="/" /></td>
+      <td><input type="number" name="a[2]" /></td>
+      <td><input type="text" disabled value="+" /></td>
+      <td><input type="text" disabled class="hide" /></td>
+      <td><input type="text" value="x" disabled /></td>
+      <td><input type="number" name="a[7]" /></td>
+      <td><input type="text" disabled value="/" /></td>
+    </tr>
+  </table>
+  <div class="buttons">
+    <button onclick="doTest()">Test</button>
+    <button onclick="doClear()">Clear</button>
+  </div>
+
+</body>
+</html>

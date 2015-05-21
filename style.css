@@ -1,0 +1,39 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+input[type="text"], input[type="number"] {
+  width:42px;
+  height:42px;
+  font-size:1.5em;
+  text-align:center;
+}
+
+.hide {
+  visibility:hidden;
+}
+
+h4 {
+  font-size:Verdana;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.buttons {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+}
+
+button {
+  font-size:1.3em;
+  cursor:pointer;
+}
