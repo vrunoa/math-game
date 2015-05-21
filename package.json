@@ -1,0 +1,23 @@
+{
+  "name": "math-game",
+  "version": "1.0.0",
+  "description": "<img src=\"./screen.png\" />",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vrunoa/math-game.git"
+  },
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrunoa/math-game/issues"
+  },
+  "homepage": "https://github.com/vrunoa/math-game",
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "mocha": "^2.2.5"
+  }
+}

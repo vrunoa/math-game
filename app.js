@@ -1,6 +1,13 @@
 function test(arr) {
   if(arr.length != 9) return false;
   
+  var vec = buildMath(vec);
+  var result = eval(vec);
+  // console.log(result);
+  return vec == 66 ? true : false;
+}
+
+function buildMath(arr) {
   var vec = [
     ,"+",13,"*",,"/",
     ,"+",,"+",12,"*",,
@@ -18,9 +25,8 @@ function test(arr) {
   for(var i in arr) {
      fillBlank(arr[i]);
   }
-  var result = eval(vec.join(''));
-  // console.log(result);
-  return vec == 66 ? true : false;
+  
+  return vec.join('');
 }
 
 function doTest() {
